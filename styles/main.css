@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/*   ROW ONE    */
+
+fieldset {
+  border-style: none;
+}
+
+.row-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+/*   ROW TWO    */
+
+.row-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row-two input {
+  width: 330px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.name-field {
+  width: 43%;
+  margin: 30px;
+}
+
+#name {
+  margin-bottom: 40px;
+}
+
+#email {
+  margin-bottom: 40px;
+}
+
+.password-field {
+  width: 43%;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+
+/*   ROW THREE   */
+
+.row-three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid black;
+  width: 330px;
+  height: 40px;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.file-upload {
+  margin-left: 30px;
+}
+
+#file {
+  margin-top: 20px;
+  font-size: 16px;
+}
